@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="leafPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M25 5 Q35 15 30 25 Q25 35 20 25 Q15 15 25 5" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    </pattern>
+    <pattern id="geometricPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <rect x="15" y="15" width="10" height="10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background patterns -->
+  <rect width="200" height="200" fill="url(#leafPattern)"/>
+  <rect width="200" height="200" fill="url(#geometricPattern)"/>
+</svg>
